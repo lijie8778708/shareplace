@@ -49,7 +49,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    `mongodb+srv://lijie8778708:lijie00@cluster0-0ffrt.mongodb.net/mern`,
+    `your url`,
     { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true}
   )
   .then(() => {
